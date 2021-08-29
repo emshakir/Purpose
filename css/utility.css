@@ -1,0 +1,107 @@
+.bg_primary {
+  background: #28a745;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.btn_light,
+.bg_light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg_dark {
+  background: #333;
+  color: #fff;
+}
+
+/* Button Class*/
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn_primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn_secondary {
+  background: #333;
+  color: #fff;
+}
+
+.btn_secondary:hover {
+  background-color: #333;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background: #28a745;
+  font-size: 17px;
+}
+
+/* ABOUT */
+
+.box {
+  border-right: 1px solid #73b983;
+}
+
+.box:last-child {
+  border-right: none;
+}
+
+.flex_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 35vh;
+}
+
+.flex_btn {
+  background-color: #28a745;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.flex_btn:hover {
+  background-color: #333;
+  font-size: 17px;
+}
+
+/* PERSONALITY DEVELOPEMENT*/
+
+.flex_blocks .flex_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.flex_blocks img {
+  height: 200px;
+  width: 290px;
+  object-fit: contain;
+  margin: 20px 0;
+}
+
+.flex_blocks img:hover {
+  opacity: 0.6;
+}
+
+.flex_blocks .column_2 {
+  flex: 2;
+  margin-top: 35px;
+  padding: inherit;
+}
